@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-type" content="text/html" charset="UTF-8" />
+		<meta name="test" content="test, site" />
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/functions.js"></script>
+		<title>Scrum Board</title> 
+	</head>
+	<body>
+		<header>
+			<h2 align="center" style="color: white">Scrum Board</h2>
+		</header>
+		<div class="subheader">
+			<input type="text" placeholder="input task" id="name"/>
+			<input class="button" type="button" value="Add task" />
+		</div>
+		<div class="tasks">
+			<div class="backlog">
+				<h3>Backlog</h3>
+				<div class="backlogtask">
+					<h4 class="tasknamebacklog">task in backlog</h4>
+					<div class="use">
+						<span class="usebacklog">Backlog</span>
+						<span class="useinprogress">In progress</span>
+						<span class="usedone">Done</span>
+						<span class="usedelete">Delete</span>
+					</div>
+				</div>
+			</div>
+			<div class="separator">
+				<div class="sep">
+				</div>
+			</div>
+			<div class="inprogress">
+				<h3>In Progress</h3>
+				<div class="inprogresstask">
+					<h4 class="tasknameinprogress">task in progress</h4>
+					<div class="use">
+						<span class="usebacklog">Backlog</span>
+						<span class="useinprogress">In progress</span>
+						<span class="usedone">Done</span>
+						<span class="usedelete">Delete</span>
+					</div>
+				</div>
+			</div>
+			<div class="separator">
+				<div class="sep">
+				</div>
+			</div>
+			<div class="done">
+				<h3>Done</h3>
+				<div class="donetask">
+					<h4 class="tasknamedone">task done</h4>
+					<div class="use">
+						<span class="usebacklog">Backlog</span>
+						<span class="useinprogress">In progress</span>
+						<span class="usedone">Done</span>
+						<span class="usedelete">Delete</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

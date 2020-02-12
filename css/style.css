@@ -1,0 +1,162 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+} 
+
+body {
+	height: 100vh;
+	color: #333;
+	background-color: #ffffff;
+	font-size: 1em;
+	font-family: Genva, sans-serif;
+	line-height: 130%;
+}
+
+h3 {
+	margin: 10px;
+}
+
+h4 {
+	margin: 20px, 10px, 10px;
+}
+
+header {
+	background-color: #262626;
+	min-height: 1px;
+	padding: 0.5%;		
+}
+
+div.subheader {
+	background-color: #ffdfc9;
+	min-height: 1px;
+	padding: 0.5%;	
+}
+
+input.button {
+  color: #fff;
+  background: rgb(212,75,56);
+  padding: .7em 1.5em;
+  border: 10px;
+} 
+input.button:hover { background: rgb(232,95,76); }
+input.button:active { background: rgb(152,15,0); }
+
+input[type=text] {
+  padding: .7em 1.5em;
+  margin: 8px 0;
+}
+
+div.tasks {
+	height: 100%;
+}
+
+div.separator {
+	float: left; 
+	height: 100%;
+	width: 1%;
+	background-color: white;
+}
+
+div.backlog {
+	float: left; 
+	height: 100%;
+	width: 33%;
+	background-color: white;
+}
+
+div.inprogress {
+	float: left; 
+	height: 100%;
+	width: 32%;
+	background-color: white;
+}
+
+div.done {
+	float: left; 
+	height: 100%;
+	width: 33%;
+	background-color: white;
+}
+
+div.sep {
+	height: 100%;
+	background-color: #ffdfc9;
+	width: 2px;
+}
+
+div.backlogtask {	
+	padding: 10px;
+	height: 4em;
+	background-color: #ccccff;
+	margin: .5em;
+	border-radius: 10px;
+}
+
+div.inprogresstask {
+	padding: 10px;
+	height: 4em;
+	background-color: #ffcccc;
+	margin: .5em;
+	border-radius: 10px;
+}
+
+div.donetask {	
+	padding: 10px;
+	height: 4em;
+	background-color: #ccff99;
+	margin: .5em;
+	border-radius: 10px;
+}
+
+div.use {
+	margin: 10px;
+}
+
+span.usebacklog {
+	color: #0000cc
+}
+
+span.usebacklog:hover {
+	text-decoration: underline;
+	cursor: default;
+}
+
+span.useinprogress {
+	color: #ff0000
+}
+
+span.useinprogress:hover {
+	text-decoration: underline;
+	cursor: default;
+}
+
+span.usedone {
+	color: #00cc33;
+}
+
+span.usedone:hover {
+	text-decoration: underline;
+	cursor: default;
+}
+
+span.usedelete {
+	color: #9900cc;
+}
+
+span.usedelete:hover {
+	text-decoration: underline;
+	cursor: default;
+}
+
+.backlog .backlogtask .use .usebacklog:hover {
+	text-decoration: none;
+}
+
+.inprogress .inprogresstask .use .useinprogress:hover {
+	text-decoration: none;
+}
+
+.done .donetask .use .usedone:hover {
+	text-decoration: none;
+}
